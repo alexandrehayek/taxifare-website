@@ -6,7 +6,7 @@ import folium
 from streamlit_folium import st_folium
 
 '''
-# Taxifare
+# Welcome to taxifare
 '''
 
 url = 'https://taxifare.lewagon.ai/predict'
