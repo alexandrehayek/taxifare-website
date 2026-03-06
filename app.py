@@ -6,12 +6,12 @@ import folium
 from streamlit_folium import st_folium
 
 '''
-# TaxiFare
+# Taxifare
 '''
 
 url = 'https://taxifare.lewagon.ai/predict'
 geolocator = Nominatim(user_agent="taxifare")
-st.set_page_config(page_title="TaxiFare", page_icon="🚗", layout="wide")
+st.set_page_config(page_title="Taxifare", page_icon="🚗", layout="wide")
 
 def geocode_address(address):
     """Convert address string to (lat, lon, full_address) or None."""
